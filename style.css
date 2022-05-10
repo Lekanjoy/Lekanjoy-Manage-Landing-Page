@@ -193,7 +193,7 @@ nav ul li {
   overflow-x: scroll;
 }
 .testimonial::-webkit-scrollbar {
-  height: 8px;
+  height: .7rem;
   background-color: var(--BrightRed);
 }
 
@@ -210,7 +210,7 @@ nav ul li {
 .card img {
   width: 50px;
   position: relative;
-  top: -10px;
+  top: 0;
 }
 .card h3 {
   color: var(--DarkBlue);
