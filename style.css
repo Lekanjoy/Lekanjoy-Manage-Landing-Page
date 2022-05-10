@@ -148,13 +148,14 @@ nav ul li {
 .reason3 .features {
   background: var(--VeryPaleRed);
   width: 100%;
-  padding: 10px 3rem 10px 0;
+  padding: 8px 3rem 8px 0;
   border-radius: 20px;
   font-weight: 600;
   color: var(--DarkBlue);
-  font-size: 20px;
+  font-size: 18px;
   display: block;
   width: 100%;
+white-space: nowwrap;
 }
 .reason1 .features span,
 .reason2 .features span,
@@ -299,7 +300,7 @@ footer {
 input {
   border: 1px solid transparent;
   outline: none;
-  padding: 0.4rem 3rem;
+  padding: 0.4rem 2rem;
   border-radius: 18px;
   margin-top: 1rem;
   margin-bottom: 1.8rem;
