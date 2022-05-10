@@ -210,7 +210,6 @@ nav ul li {
 .card img {
   width: 50px;
   position: relative;
-  top: 0;
 }
 .card h3 {
   color: var(--DarkBlue);
