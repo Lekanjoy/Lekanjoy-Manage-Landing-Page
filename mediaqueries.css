@@ -1,0 +1,129 @@
+
+@media screen and (min-width:768px){
+    #nav-links{
+        display: flex;
+    }
+    .sub-btn{
+        display: inline;
+        height: 40px;
+        margin-top: -.7rem;
+        
+    }
+    header{
+        flex-direction: row;
+    
+    }
+    nav ul{
+        background-color: transparent;
+        display: inline-flex;
+        margin-top: -1rem;
+
+    }
+     .first-sect{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 4rem 6rem;
+
+    }
+    .first-sect .content{
+       text-align: left;
+   }
+    .content h2{
+        text-align: left;
+        font-size: 50px;
+    }
+    .content p{
+        text-align: left;
+    }
+    .hamburger-icon{
+        display: none;        
+    }
+      .second-sect{
+       display: grid;
+       padding: 3rem 6rem;
+       grid-template-columns: 1fr 1fr;
+       gap: 4rem;
+   }
+   .second-sect .intro{
+       text-align: left;
+   }
+   .reason1 p,
+.reason2 p,
+.reason3 p{
+    margin-left: 5rem;
+}
+    .reason1 .features,
+   .reason2 .features,
+   .reason3 .features{
+       background: transparent;
+       white-space: nowrap;
+       font-size: 17px;
+   }
+   .reason1 .features span,
+.reason2 .features span,
+.reason3 .features span {
+  margin-right: 15px;
+  font-size: 18px;
+}
+   .swiper{
+       display: none;
+   }
+   .third-sect{
+       display: block;
+   }
+   .third-sect .testimonial{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    gap: 1.7rem;
+}
+.fourth-sect{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 2,5rem;
+    
+}
+.fourth-sect h2{
+    text-align: left;
+    font-size: 45px;
+}
+
+.cta-copy h6{
+     display: block;
+      color: var(--VeryPaleRed);
+  font-weight: 200;
+  
+  font-size: 14px;
+ }
+  .copy{
+      display: none;
+  }
+  footer{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      padding: 1rem 2rem;
+  }
+  footer .socials{
+     flex-direction: column;
+ }
+ .icon img{
+     margin-right: .6rem;
+     margin-top: 3.4rem;
+ }
+ footer .links{
+     margin-top: 1rem;
+     width: 50%;
+ }
+ input{
+     padding: .4rem 1rem;
+     margin-bottom: 6rem;
+
+ }
+ .cta-copy{
+     position: relative;
+     bottom: 0rem;
+ }
+
+
+}
